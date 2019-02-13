@@ -2,12 +2,13 @@
 title: "Reproducible Research - Course Project 2"
 author: "Pavit Masson"
 output:
+  pdf_document: default
   html_document:
-    keep_md: TRUE
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 ## Synopsis
